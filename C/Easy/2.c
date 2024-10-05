@@ -1,3 +1,5 @@
+#include<stdio.h>
+
 int main() {
     int a = 10;
     double b = 5.5;

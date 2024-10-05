@@ -1,3 +1,3 @@
-def greet(*args, **kwargs):
+def greet(args, kwargs):
     print("Hello, " + args + " " + kwargs)
-greet("John", last_name="Doe")
+greet("John", kwargs="Doe")

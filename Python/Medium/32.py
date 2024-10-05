@@ -1,7 +1,8 @@
 import sys
 
 sys.setrecursionlimit(10)
-def recursive_function():
-    recursive_function()
+def recursive_function(n):
+    while n<10:
+        recursive_function(n)
 
-recursive_function()
+print(recursive_function(10))
